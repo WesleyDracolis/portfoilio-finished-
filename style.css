@@ -1,0 +1,73 @@
+h1 {
+    color: rgb(0, 177, 247);
+    font-size: 50px;
+    margin: 30px;
+}
+
+.header {
+    background-color: rgb(11, 58, 18);
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    padding: 30px;
+}
+
+.menu {
+    display:flex;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p {
+    text-align: center;
+    color: cyan;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: cyan;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: rgb(29, 27, 27);
+}
+
+a:link {
+    color: aquamarine;
+}
+
+a:visited {
+    color: lightgreen;
+}
+
+.item {
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+}
